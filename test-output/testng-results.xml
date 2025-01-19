@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-17T17:48:07 IST" name="Suite" finished-at="2025-01-17T17:48:16 IST" duration-ms="8480">
+  <suite started-at="2025-01-19T08:26:39 IST" name="Failed suite [Suite]" finished-at="2025-01-19T08:26:58 IST" duration-ms="19182">
     <groups>
     </groups>
-    <test started-at="2025-01-17T17:48:07 IST" name="chromeTest" finished-at="2025-01-17T17:48:16 IST" duration-ms="8480">
-      <class name="testCases.TC_002_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_002_LoginTest@3ed242a4]" started-at="2025-01-17T17:48:07 IST" name="setup" finished-at="2025-01-17T17:48:13 IST" duration-ms="5496" status="PASS">
+    <test started-at="2025-01-19T08:26:39 IST" name="chromeTest(failed)" finished-at="2025-01-19T08:26:58 IST" duration-ms="19182">
+      <class name="testCases.TC_003_LoginDDT">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@7d64e326]" started-at="2025-01-19T08:26:39 IST" name="setup" finished-at="2025-01-19T08:26:45 IST" duration-ms="5882" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_login()[pri:0, instance:testCases.TC_002_LoginTest@3ed242a4]" started-at="2025-01-17T17:48:13 IST" name="verify_login" finished-at="2025-01-17T17:48:15 IST" duration-ms="2000" status="PASS">
+        <test-method signature="verify_loginDDT(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC_003_LoginDDT@7d64e326]" started-at="2025-01-19T08:26:46 IST" name="verify_loginDDT" data-provider="LoginData" finished-at="2025-01-19T08:26:58 IST" duration-ms="11432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[laksh@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lakshmi12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginTest@3ed242a4]" started-at="2025-01-17T17:48:15 IST" name="tearDown" finished-at="2025-01-17T17:48:16 IST" duration-ms="935" status="PASS">
+        </test-method> <!-- verify_loginDDT -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_003_LoginDDT@7d64e326]" started-at="2025-01-19T08:26:58 IST" name="tearDown" finished-at="2025-01-19T08:26:58 IST" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_002_LoginTest -->
-    </test> <!-- chromeTest -->
-  </suite> <!-- Suite -->
+      </class> <!-- testCases.TC_003_LoginDDT -->
+    </test> <!-- chromeTest(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
 </testng-results>

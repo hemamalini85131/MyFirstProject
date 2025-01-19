@@ -28,7 +28,9 @@
           <version>3.5.2</version>
           <configuration>
 			  <suiteXmlFiles>
-				  <suiteXmlFile>masterTestng.xml</suiteXmlFile>
+				  <suiteXmlFile>masterTestng.xml</suiteXmlFile> -->
+				<!--  <suiteXmlFile>parallelTestng.xml</suiteXmlFile>-->
+
 			  </suiteXmlFiles>
           </configuration>
 			  

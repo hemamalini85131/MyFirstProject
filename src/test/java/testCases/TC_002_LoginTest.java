@@ -8,6 +8,7 @@ import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
 import testBase.BaseClass;
 
+
 public class TC_002_LoginTest extends BaseClass
 {
 
@@ -48,4 +49,3 @@ public class TC_002_LoginTest extends BaseClass
 		logger.info("**** Finished TC_002_LoginTest  ****");
 	}
 }
-
